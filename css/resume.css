@@ -1,147 +1,299 @@
-body {
-  font-family: 'Open Sans', serif;
-  padding-top: 54px;
-  color: #868e96;
+html, body, #resume, #resume > .row {
+    font-family: 'Open Sans', serif;
+    color: #868e96;
 }
 
-@media (min-width: 992px) {
-  body {
-    padding-top: 0;
-    padding-left: 17rem;
+#header {
+    margin-top: 4em;
+}
+
+#name {
+    /* height: 2em; */
+    /* width: 186px; */
+    color: #FFEFEF;
+    font-family: Roboto;
+    font-size: 36px;
+    /* font-weight: 300; */
+    /* line-height: 42px; */
+    /* text-align: center; */
+    /*margin-left: 50px;*/
+}
+
+#position {
+    /* height: 24px; */
+    /* width: 172px; */
+    color: #B5BBC2;
+    font-family: Roboto;
+    font-size: 20px;
+    /* font-weight: 300; */
+    /* line-height: 24px; */
+    /* text-align: center; */
+    /*margin-left: 50px;*/
+    margin-bottom: .2em;
+}
+
+.misc {
+    color: #B5BBC2;
+    font-family: Roboto;
+    font-size: 16px;
+    /* line-height: 16px; */
+    /*margin-left: 50px;*/
+}
+
+#intro {
+    /* height: 300px; */
+    /* width: 236px; */
+    color: #FFEFEF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: italic;
+    /* font-weight: 300; */
+    /* line-height: 20px; */
+    /*margin-left: 50px;*/
+    margin-top: 1em;
+}
+
+.left {
+    background-color: #4F5B6A;
+    padding-left: 2em !important;
+}
+
+.middle {
+    background-color: #EDEEEF;
+    padding: 0 !important;
+
+}
+
+.reset-color{
+    background-color:white
+}
+
+.right{
+
+}
+.highlights {
+    /* height: 19px; */
+    /* width: 116px; */
+    color: #CDD4DE;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 19px;
+    /*margin-left: 50px;*/
+    margin-top: 2em;
+}
+
+.list-bullets {
+    height: 121px;
+    width: 224px;
+    color: #B5BBC2;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 16px;
+}
+.heading{font-weight:bold;}
+
+#experiences{
+    height:55%;
+
+}
+
+.company {
+    height: 18%;
+    /*padding-left:2em;*/
+    display:table;
+}
+
+.company > div{
+    display:table-cell;
+    vertical-align:middle;
+}
+
+#experience-heading{
+    height: 10%;
+    color: #4F5B6A;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 300;
+    display: table;
+    background-color: #DFE3E8;
+    width:100%;
+    padding-left:1.7em;
+
+}
+#social {
+    height: 100%;
+    background-color: white;
+}
+
+    #experience-heading > div {
+        display: table-cell;
+        vertical-align: middle;
+
+    }
+
+
+
+.date-range {
+    color: #4F5B6A;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 16px;
+    font-style:italic;
+}
+
+.company-name {
+   
+    color: #1A222D;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+}
+
+.designation {
+    color: #1A222D;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 19px;
+}
+#experience-heading, .company {
+    border: 1px solid #FFFFFF;
+}
+
+#technical-skills{
+    height:45%;;
+    padding-left:2em;
+}
+  #technical-skills >div{
+      height:100%;
+      display:table;
   }
+        #technical-skills > div > div {
+            color: #4F5B6A;
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: bold;
+           display:table-cell;
+           vertical-align:middle;
+        }
+
+.skill-area {
+    color: #4F5B6A;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight:100;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Saira Extra Condensed', serif;
-  font-weight: 700;
-  text-transform: uppercase;
-  color: #343a40;
+
+
+
+.experience{
+
+    height:18%;
+}
+.pointer{
+    margin-right:0 !important;
+}
+    .pointer:after {
+        content: '';
+        display: block;
+        position: relative;
+        left: 100%;
+        top: calc(50% - 30px);
+        width: 0;
+        height: 0;
+        border-top: 30px solid transparent;
+        border-right: 30px solid transparent;
+        border-bottom: 30px solid transparent;
+        border-left: 30px solid orange;
+    }
+
+.bullet {
+    width: 1em;
+    height: 1em;
+    background-color: #77818D;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 3px solid #FFFFFF;
+    
 }
 
-h1 {
-  font-size: 6rem;
-  line-height: 5.5rem;
+.bullet-alignment {
+    margin-left: -.5em;
+    top: calc(50% - .5em)
 }
 
-h2 {
-  font-size: 3.5rem;
+.experience-details {
+    top: calc(50% - 25px);
+    height:100%;
 }
 
-.subheading {
-  text-transform: uppercase;
-  font-weight: 500;
-  font-family: 'Saira Extra Condensed', serif;
-  font-size: 1.35rem;
+
+
+
+
+    .right-arrow:after {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 20%;
+        width: 0;
+        height: 0;
+        border-top: 2em solid transparent;
+        border-right: 2em solid transparent;
+        border-bottom: 2em solid transparent;
+        border-left: 2em solid #EDEEEF;
+    }
+
+.right-exp-date-range {
+    color: #1A222D;
+    font-family: Roboto;
+    font-size: 14px;
 }
 
-.list-social-icons a {
-  color: #495057;
+.right-exp-designation {
+    color: #1A222D;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: bold;
+
 }
 
-.list-social-icons a:hover {
-  color: #BD5D38;
+.right-exp-company-name {
+    line-height: .5em;
+    color: #1A222D;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 300;
 }
 
-.list-social-icons a .fa-lg {
-  font-size: 1.75rem;
+.right-exp-country {
+    color: #1A222D;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 300;
 }
 
-.list-icons {
-  font-size: 3rem;
+.right-exp-sub-heading, .right-exp-designation {
+    padding-top: .8em;
 }
 
-.list-icons .list-inline-item i:hover {
-  color: #BD5D38;
+.right-exp-sub-heading {
+    color: #1A222D;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 16px;
 }
 
-#sideNav .navbar-nav .nav-item .nav-link {
-  font-weight: 600;
-  text-transform: uppercase;
+.right-exp-sub-details {
+    color: #1A222D;
+    font-family: Roboto;
+    font-size: 14px;
+}
 }
 
-@media (min-width: 992px) {
-  #sideNav {
-    text-align: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: flex;
-    flex-direction: column;
-    width: 17rem;
-    height: 100vh;
-  }
-  #sideNav .navbar-brand {
-    display: flex;
-    margin: auto auto 0;
-    padding: 0.5rem;
-  }
-  #sideNav .navbar-brand .img-profile {
-    max-width: 10rem;
-    max-height: 10rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
-  }
-  #sideNav .navbar-collapse {
-    display: flex;
-    align-items: flex-start;
-    flex-grow: 0;
-    width: 100%;
-    margin-bottom: auto;
-  }
-  #sideNav .navbar-collapse .navbar-nav {
-    flex-direction: column;
-    width: 100%;
-  }
-  #sideNav .navbar-collapse .navbar-nav .nav-item {
-    display: block;
-  }
-  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
-    display: block;
-  }
-}
 
-section.resume-section {
-  border-bottom: 1px solid #dee2e6;
-  padding-top: 5rem !important;
-  padding-bottom: 5rem !important;
-}
-
-section.resume-section .resume-item .resume-date {
-  min-width: none;
-}
-
-@media (min-width: 768px) {
-  section.resume-section {
-    min-height: 100vh;
-  }
-  section.resume-section .resume-item .resume-date {
-    min-width: 18rem;
-  }
-}
-
-@media (min-width: 992px) {
-  section.resume-section {
-    padding-top: 3rem !important;
-    padding-bottom: 3rem !important;
-  }
-}
-
-.bg-primary {
-  background-color: #BD5D38 !important;
-}
-
-.text-primary {
-  color: #BD5D38 !important;
-}
-
-a {
-  color: #BD5D38;
-}
-
-a:hover, a:focus, a:active {
-  color: #824027;
-}
