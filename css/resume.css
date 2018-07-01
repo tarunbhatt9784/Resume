@@ -61,16 +61,16 @@ html, body, #resume, #resume > .row {
 .middle {
     background-color: #EDEEEF;
     padding: 0 !important;
-
 }
 
-.reset-color{
-    background-color:white
+.reset-color {
+    background-color: white
 }
 
-.right{
-
+.right {
+    margin-left:-4em !important;
 }
+
 .highlights {
     /* height: 19px; */
     /* width: 116px; */
@@ -90,25 +90,27 @@ html, body, #resume, #resume > .row {
     font-size: 14px;
     line-height: 16px;
 }
-.heading{font-weight:bold;}
 
-#experiences{
-    height:55%;
+.heading {
+    font-weight: bold;
+}
 
+#experiences {
+    height: 55%;
 }
 
 .company {
     height: 18%;
     /*padding-left:2em;*/
-    display:table;
+    display: table;
 }
 
-.company > div{
-    display:table-cell;
-    vertical-align:middle;
-}
+    .company > div {
+        display: table-cell;
+        vertical-align: middle;
+    }
 
-#experience-heading{
+#experience-heading {
     height: 10%;
     color: #4F5B6A;
     font-family: Roboto;
@@ -116,20 +118,19 @@ html, body, #resume, #resume > .row {
     font-weight: 300;
     display: table;
     background-color: #DFE3E8;
-    width:100%;
-    padding-left:1.7em;
-
+    width: 100%;
+    padding-left: 1.7em;
 }
+
 #social {
     height: 100%;
     background-color: white;
 }
 
-    #experience-heading > div {
-        display: table-cell;
-        vertical-align: middle;
-
-    }
+#experience-heading > div {
+    display: table-cell;
+    vertical-align: middle;
+}
 
 
 
@@ -138,11 +139,10 @@ html, body, #resume, #resume > .row {
     font-family: Roboto;
     font-size: 14px;
     line-height: 16px;
-    font-style:italic;
+    font-style: italic;
 }
 
 .company-name {
-   
     color: #1A222D;
     font-family: Roboto;
     font-size: 16px;
@@ -157,44 +157,49 @@ html, body, #resume, #resume > .row {
     font-weight: bold;
     line-height: 19px;
 }
+
 #experience-heading, .company {
     border: 1px solid #FFFFFF;
 }
 
-#technical-skills{
-    height:45%;;
-    padding-left:2em;
+#technical-skills {
+    height: 45%;
+    ;
+    padding-left: 2em;
 }
-  #technical-skills >div{
-      height:100%;
-      display:table;
-  }
+
+    #technical-skills > div {
+        height: 100%;
+        display: table;
+    }
+
         #technical-skills > div > div {
             color: #4F5B6A;
             font-family: Roboto;
             font-size: 16px;
             font-weight: bold;
-           display:table-cell;
-           vertical-align:middle;
+            display: table-cell;
+            vertical-align: middle;
         }
 
 .skill-area {
     color: #4F5B6A;
     font-family: Roboto;
     font-size: 14px;
-    font-weight:100;
+    font-weight: 100;
 }
 
 
 
 
-.experience{
+.experience {
+    height: 18%;
+}
 
-    height:18%;
+.pointer {
+    margin-right: 0 !important;
 }
-.pointer{
-    margin-right:0 !important;
-}
+
     .pointer:after {
         content: '';
         display: block;
@@ -217,7 +222,6 @@ html, body, #resume, #resume > .row {
     -webkit-border-radius: 50%;
     border-radius: 50%;
     border: 3px solid #FFFFFF;
-    
 }
 
 .bullet-alignment {
@@ -227,26 +231,51 @@ html, body, #resume, #resume > .row {
 
 .experience-details {
     top: calc(50% - 25px);
-    height:100%;
+    height: 100%;
 }
 
 
 
 
 
-    .right-arrow:after {
-        content: '';
-        display: block;
-        position: absolute;
-        left: 0;
-        top: 20%;
-        width: 0;
-        height: 0;
-        border-top: 2em solid transparent;
-        border-right: 2em solid transparent;
-        border-bottom: 2em solid transparent;
-        border-left: 2em solid #EDEEEF;
-    }
+.right-arrow:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-top: 2em solid transparent;
+    border-right: 2em solid transparent;
+    border-bottom: 2em solid transparent;
+    border-left: 2em solid #EDEEEF;
+}
+
+.right-arrow-resonate-1:after {
+    top: 7.5%;
+}
+
+.right-arrow-resonate-2:after {
+    top: 17.4%;
+}
+
+.right-arrow-ibm:after {
+    top: 27.3%;
+}
+
+.right-arrow-headstrong:after {
+    top: 37.2%;
+}
+
+.right-arrow-thbs:after {
+    top: 47.1%;
+}
+
+.right-arrow-resonate-2, .right-arrow-headstrong, .right-arrow-ibm, .right-arrow-thbs, .resonate-2, .ibm, .headstrong, .thbs {
+    display: none;
+}
+
+
 
 .right-exp-date-range {
     color: #1A222D;
@@ -259,7 +288,6 @@ html, body, #resume, #resume > .row {
     font-family: Roboto;
     font-size: 20px;
     font-weight: bold;
-
 }
 
 .right-exp-company-name {
@@ -295,5 +323,3 @@ html, body, #resume, #resume > .row {
     font-size: 14px;
 }
 }
-
-

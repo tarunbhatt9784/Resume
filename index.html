@@ -25,7 +25,7 @@
 
 </head>
 
-<body onload="fetchExperience()" id="page-top">
+<body  id="page-top">
 
   
     <head>
@@ -94,7 +94,19 @@
                         <div id="experience-heading">
                             <div>Work Experience</div>
                         </div>
-                        <div class=" experience row">
+                        <div class=" experience row"  onclick="showResonate1();">
+                            <div class="col-md-1 bullet-alignment">
+                                <div class="bullet"></div>
+                            </div>
+                            <div class="col-md-11 experience-details">
+                                <div class="date-range">May 2016 - Till Date</div>
+                                <div class="designation">Developer – Programmer</div>
+                                <div class="company-name">Resonate Solutions</div>
+                            </div>
+                        </div>
+                        <div style="border-top: 1px solid #FFFFFF;"></div>
+
+                        <div class=" experience row"  onclick="showResonate2();">
                             <div class="col-md-1 bullet-alignment">
                                 <div class="bullet"></div>
                             </div>
@@ -104,52 +116,41 @@
                                 <div class="company-name">Resonate Solutions</div>
                             </div>
                         </div>
+
                         <div style="border-top: 1px solid #FFFFFF;"></div>
 
-                        <div class=" experience row">
+                        <div class=" experience row"  onclick="showIbm();">
                             <div class="col-md-1 bullet-alignment">
                                 <div class="bullet"></div>
                             </div>
                             <div class="col-md-11 experience-details">
-                                <div class="date-range">September 2014 - April 2016</div>
-                                <div class="designation">Software Developer / Dev-Ops</div>
-                                <div class="company-name">Resonate Solutions</div>
+                                <div class="date-range">Oct 2011- May 2014</div>
+                                    <div class="designation">Programmer / Technical Consultation </div>
+                                    <div class="company-name">IBM</div>
+                                </div>
+                        </div>
+                        <div style="border-top: 1px solid #FFFFFF;"></div>
+
+                        <div class=" experience row"  onclick="showHeadstrong();">
+                            <div class="col-md-1 bullet-alignment">
+                                <div class="bullet"></div>
+                            </div>
+                            <div class="col-md-11 experience-details">
+                                <div class="date-range">Jan 2011 – Oct 2011</div>
+                                <div class="designation">Technical Coordination </div>
+                                <div class="company-name">Headstrong</div>
                             </div>
                         </div>
                         <div style="border-top: 1px solid #FFFFFF;"></div>
 
-                        <div class=" experience row">
+                        <div class=" experience row"  onclick="showThbs();">
                             <div class="col-md-1 bullet-alignment">
                                 <div class="bullet"></div>
                             </div>
                             <div class="col-md-11 experience-details">
-                                <div class="date-range">September 2014 - April 2016</div>
-                                <div class="designation">Software Developer / Dev-Ops</div>
-                                <div class="company-name">Resonate Solutions</div>
-                            </div>
-                        </div>
-                        <div style="border-top: 1px solid #FFFFFF;"></div>
-
-                        <div class=" experience row">
-                            <div class="col-md-1 bullet-alignment">
-                                <div class="bullet"></div>
-                            </div>
-                            <div class="col-md-11 experience-details">
-                                <div class="date-range">September 2014 - April 2016</div>
-                                <div class="designation">Software Developer / Dev-Ops</div>
-                                <div class="company-name">Resonate Solutions</div>
-                            </div>
-                        </div>
-                        <div style="border-top: 1px solid #FFFFFF;"></div>
-
-                        <div class=" experience row">
-                            <div class="col-md-1 bullet-alignment">
-                                <div class="bullet"></div>
-                            </div>
-                            <div class="col-md-11 experience-details">
-                                <div class="date-range">September 2014 - April 2016</div>
-                                <div class="designation">Software Developer / Dev-Ops</div>
-                                <div class="company-name">Resonate Solutions</div>
+                                <div class="date-range">Sept 2007 – Jan 2011</div>
+                                <div class="designation">Onsite Technical Coordination / Developer - Programmer</div>
+                                <div class="company-name">Torry Harris Business Solutions</div>
                             </div>
                         </div>
 
@@ -176,14 +177,27 @@
                         </div>
                     </section>
                 </div>
-                <div class="col-md-5 right">
+                <div class="col-md-1" style="padding-left:0">
+                    <div style="height:55% ">
+                        <div class="right-arrow-resonate-1 right-arrow"></div>
+                        <div class="right-arrow-resonate-2 right-arrow " ></div>
+                        <div class="right-arrow-ibm right-arrow " ></div>
+                        <div class="right-arrow-headstrong right-arrow "></div>
+                        <div class="right-arrow-thbs right-arrow "></div>
+
+
+
+                    </div>
+                    <div style="height:45%"></div>
+
+                </div>
+                <div class="col-md-4 right">
 
                     <div class="row" style="height:5.5%;" id="social">
                     </div>
-                    <div id="Resonate-1">
+                    <div class="resonate-1">
                         <div class="row" style="height:9.9%">
-                            <div class="col-md-1 right-arrow"></div>
-                            <div class="col-md-9">
+                            <div class="col-md-11">
                                 <div class="right-exp-date-range">May 2016 - Till Date</div>
                                 <div class="right-exp-designation">Developer – Programmer</div>
                                 <div class="right-exp-company-name">Resonate Solutions</div>
@@ -191,8 +205,7 @@
                         </div>
 
                         <div class="row" style="height:90.1%">
-                            <div class="col-md-1"></div>
-                            <div class="col-md-9 ">
+                            <div class="col-md-11 ">
                                 <div class="right-exp-country">Australia</div>
                                 <div class="right-exp-sub-heading">Technologies</div>
                                 <div class="right-exp-sub-details">ASP.NET MVC (C#), AngularJS Stack, HTML, CSS, Bootstrap, jQuery, MSSQL, Power BI, LUIS, IIS, RESTful API, Microsoft Azure.</div>
@@ -222,10 +235,9 @@
                         </div>
                     </div>
 
-                    <div id="Resonate-2">
+                    <div class="resonate-2">
                         <div class="row" style="height:9.9%">
-                            <div class="col-md-1 right-arrow"></div>
-                            <div class="col-md-9">
+                            <div class="col-md-11">
                                 <div class="right-exp-date-range">September 2014 – April 2016</div>
                                 <div class="right-exp-designation">Software Developer / Dev-Ops</div>
                                 <div class="right-exp-company-name">Resonate Solutions</div>
@@ -233,11 +245,10 @@
                         </div>
 
                         <div class="row" style="height:90.1%">
-                            <div class="col-md-1"></div>
-                            <div class="col-md-9 ">
+                            <div class="col-md-11 ">
                                 <div class="right-exp-country">Australia</div>
                                 <div class="right-exp-sub-heading">Technologies</div>
-                                <div class="right-exp-sub-details">ASP.NET MVC (C#), AngularJS Stack, HTML, CSS, Bootstrap, jQuery, MSSQL, Power BI, LUIS, IIS, RESTful API, Microsoft Azure.</div>
+                                <div class="right-exp-sub-details">ASP.NET MVC (C#), AngularJS Stack, MSSQL, Microsoft Azure, SSIS, SSAS, SSRS, IIS</div>
 
                                 <div class="right-exp-sub-heading">Project Lifecycle</div>
                                 <div class="right-exp-sub-details">Agile.</div>
@@ -248,15 +259,104 @@
                                 <div class="right-exp-sub-heading">Key responsibilities</div>
                                 <div class="right-exp-sub-details">
                                     <ul>
-                                        <li>Build new features and maintain existing ones for Resonate’s main product - VoC (Voice of Customer) platform, an AngularJS/ASP.NET MVC multi-tenanted application.  </li>
-                                        <li>Strict adherence to W3C standards and cross-browser compatibilities.</li>
-                                        <li>Attended daily Scrum meetings, kept up-to-date on best practices for JavaScript frameworks and techniques.</li>
-                                        <li>Handled Browser compatibility issues for different browsers related to CSS and HTML.</li>
-                                        <li>Build new features on a cognitive BOT using Microsoft Azure LUIS Service.</li>
-                                        <li>Experience in database design and development using SQL Azure and Microsoft SQL Server.</li>
-                                        <li>Use CI / CD (Continuous Integration and Deployment) tools to integrate and deploy code to various environments.</li>
-                                        <li>Design RESTful APIs to perform CRUD operations on the database. </li>
-                                        <li>Use PowerBI to create highly interactive dashboards with drill-throughs to showcase summarized view of the actions taken on customer feedback. </li>
+                                        <li>Worked as a Developer in the team for designing and developing an automated monitoring tool to gauge the overall health of the system. This was achieved using Visual Studio, .Net, C# and SQL Server.</li>
+                                        <li>SQL Server performance improvements by optimizing SQL queries and removing performance bottlenecks in the SSIS package. </li>
+                                        <li>Expertise in SQL Server Integration Services (SSIS) and SQL Server Analysis Services (SSAS) with good knowledge of SQL Server Reporting Services (SSRS).</li>
+                                        <li>Production support responsibility: assist in performing monitoring, intervention, escalation, and communication of any issues having an impact on any aspect of the production environment. </li>
+                                        <li>Key member of the social team (responsible for organizing company activities)</li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="ibm">
+                        <div class="row" style="height:9.9%">
+                            <div class="col-md-11">
+                                <div class="right-exp-date-range">Oct 2011- May 2014</div>
+                                <div class="right-exp-designation">Programmer / Technical Consultation </div>
+                                <div class="right-exp-company-name">IBM</div>
+                            </div>
+                        </div>
+
+                        <div class="row" style="height:90.1%">
+                            <div class="col-md-11 ">
+                                <div class="right-exp-country">Netherlands (Contractual) & India (Permanent)</div>
+                                <div class="right-exp-sub-heading">Technologies</div>
+                                <div class="right-exp-sub-details">Java, JSF, Oracle WebLogic Server, JavaScript, HTML and CSS</div>
+
+                                <div class="right-exp-sub-heading">Project Lifecycle</div>
+                                <div class="right-exp-sub-details">Agile.</div>
+
+                                <div class="right-exp-sub-heading">Key responsibilities</div>
+                                <div class="right-exp-sub-details">
+                                    <ul>
+                                        <li>Onsite technical lead / coordinator for a CRM (Customer relationship management) product.</li>
+                                        <li>Requirements gathering, estimation, and implementation of a code baseline migration project focussed on improving performance, time to market and system downtime. The migration project involved a transition from Struts framework to JSF.   </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="headstrong" onclick="showHeadstrong()">
+                        <div class="row" style="height:9.9%">
+                            <div class="col-md-11">
+                                <div class="right-exp-date-range">Jan 2011 – Oct 2011</div>
+                                <div class="right-exp-designation">Technical Coordination </div>
+                                <div class="right-exp-company-name">Headstrong</div>
+                            </div>
+                        </div>
+
+                        <div class="row" style="height:90.1%">
+                            <div class="col-md-11 ">
+                                <div class="right-exp-country">India</div>
+                                <div class="right-exp-sub-heading">Technologies</div>
+                                <div class="right-exp-sub-details">Java J2EE (Struts, Spring Batch, Hibernate), Oracle WebLogic server, Tomcat, Oracle </div>
+
+                                <div class="right-exp-sub-heading">Project Lifecycle</div>
+                                <div class="right-exp-sub-details">Agile and Waterfall.</div>
+
+                                <div class="right-exp-sub-heading">Project Description</div>
+                                <div class="right-exp-sub-details">OATS is a system which receives & validates trading order reports and provides submission status, rejections & statistics. These statistics are then submitted to trading regulatory authority (FINRA – Financial Industry Regulatory Authority) for validation.</div>
+
+                                <div class="right-exp-sub-heading">Key responsibilities</div>
+                                <div class="right-exp-sub-details">
+                                    <ul>
+                                        <li>Design and development of adapters for Scotia bank for a system known as OATS (Order Audit Trail System). </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="thbs">
+                        <div class="row" style="height:9.9%">
+                            <div class="col-md-11">
+                                <div class="right-exp-date-range">Sept 2007 – Jan 2011</div>
+                                <div class="right-exp-designation">Onsite Technical Coordination / Developer - Programmer</div>
+                                <div class="right-exp-company-name">Torry Harris Business Solution (THBS)</div>
+                            </div>
+                        </div>
+
+                        <div class="row" style="height:90.1%">
+                            <div class="col-md-11 ">
+                                <div class="right-exp-country">UK (Contractual) & India (Permanent)</div>
+                                <div class="right-exp-sub-heading">Technologies</div>
+                                <div class="right-exp-sub-details">Java J2EE (Struts & Hibernate), IBM Web Application Server, Oracle DB, JavaScript, HTML, CSS</div>
+
+                                <div class="right-exp-sub-heading">Project Lifecycle</div>
+                                <div class="right-exp-sub-details">Agile and Waterfall.</div>
+
+                            
+                                <div class="right-exp-sub-heading">Key responsibilities</div>
+                                <div class="right-exp-sub-details">
+                                    <ul>
+                                        <li>Design and Development of major customizations on a system known as Compass. Compass is a web application used by Inbound and Outbound customer care agents for PAYG and post-paid customers.</li>
+                                        <li>Onsite Technical Coordination (UK) for a Java customization project focussed on enhancing front-end functionality to increase retention of Orange Customers.</li>
                                     </ul>
                                 </div>
 
@@ -265,11 +365,7 @@
                     </div>
 
 
-
                 </div>
-
-
-            </div>
         </div>
 
 
@@ -277,8 +373,65 @@
 </html>
 
     <script>
-        function fetchExperience() {
-            $("#Resonate-1").hide();
+        function showResonate1() {
+            $('.resonate-1').show();
+            $('.resonate-2').hide();
+            $('.ibm').hide();
+            $('.headstrong').hide();
+            $('.thbs').hide();
+            $('.right-arrow-resonate-1').show();
+            $('.right-arrow-resonate-2').hide();
+            $('.right-arrow-.ibm').hide();
+            $('.right-arrow-headstrong').hide();
+            $('.right-arrow-thbs').hide();
+        }
+        function showResonate2() {
+            $('.resonate-1').hide();
+            $('.resonate-2').show();
+            $('.ibm').hide();
+            $('.headstrong').hide();
+            $('.thbs').hide();
+            $('.right-arrow-resonate-1').hide();
+            $('.right-arrow-resonate-2').show();
+            $('.right-arrow-.ibm').hide();
+            $('.right-arrow-headstrong').hide();
+            $('.right-arrow-thbs').hide();
+        }
+        function showIbm() {
+            $('.resonate-1').hide();
+            $('.resonate-2').hide();
+            $('.ibm').show();
+            $('.headstrong').hide();
+            $('.thbs').hide();
+            $('.right-arrow-resonate-1').hide();
+            $('.right-arrow-resonate-2').hide();
+            $('.right-arrow-ibm').show();
+            $('.right-arrow-headstrong').hide();
+            $('.right-arrow-thbs').hide();
+        }
+        function showHeadstrong() {
+            $('.resonate-1').hide();
+            $('.resonate-2').hide();
+            $('.ibm').hide();
+            $('.headstrong').show();
+            $('.thbs').hide();
+            $('.right-arrow-resonate-1').hide();
+            $('.right-arrow-resonate-2').hide();
+            $('.right-arrow-.ibm').hide();
+            $('.right-arrow-headstrong').show();
+            $('.right-arrow-thbs').hide();
+        }
+        function showThbs() {
+            $('.resonate-1').hide();
+            $('.resonate-2').hide();
+            $('.ibm').hide();
+            $('.headstrong').hide();
+            $('.thbs').show();
+            $('.right-arrow-resonate-1').hide();
+            $('.right-arrow-resonate-2').hide();
+            $('.right-arrow-ibm').hide();
+            $('.right-arrow-headstrong').hide();
+            $('.right-arrow-thbs').show();
         }
     </script>
 <!-- Bootstrap core JavaScript -->
