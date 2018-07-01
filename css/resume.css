@@ -194,6 +194,7 @@ html, body, #resume, #resume > .row {
 
 .experience {
     height: 18%;
+    cursor: pointer;
 }
 
 .pointer {
